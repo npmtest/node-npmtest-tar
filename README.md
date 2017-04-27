@@ -1,6 +1,6 @@
 # npmtest-tar
 
-#### test coverage for  [tar (v2.2.1)](https://github.com/isaacs/node-tar#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-tar.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tar) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tar.svg)](https://travis-ci.org/npmtest/node-npmtest-tar)
+#### basic test coverage for  [tar (v2.2.1)](https://github.com/isaacs/node-tar#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-tar.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tar) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tar.svg)](https://travis-ci.org/npmtest/node-npmtest-tar)
 
 #### tar for node
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-tar/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-tar/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-tar/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-tar/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-tar/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-tar/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-tar/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-tar/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-tar/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-tar/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-tar/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-tar/build/coverage.html/index.html)
 
@@ -86,7 +86,8 @@
     "scripts": {
         "test": "tap test/*.js"
     },
-    "version": "2.2.1"
+    "version": "2.2.1",
+    "bin": {}
 }
 ```
 
